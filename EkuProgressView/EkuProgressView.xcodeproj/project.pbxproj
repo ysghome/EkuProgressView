@@ -15,6 +15,9 @@
 		38C3140D1D08167A0048A824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C3140B1D08167A0048A824 /* LaunchScreen.storyboard */; };
 		38C314181D08167A0048A824 /* EkuProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C314171D08167A0048A824 /* EkuProgressViewTests.m */; };
 		38C314231D08167A0048A824 /* EkuProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C314221D08167A0048A824 /* EkuProgressViewUITests.m */; };
+		38C314351D0817000048A824 /* EkuLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C314321D0817000048A824 /* EkuLine.m */; };
+		38C314391D0817250048A824 /* EkuProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C314381D0817250048A824 /* EkuProgressView.m */; };
+		38C3143C1D0819F40048A824 /* NSString+EkuCategoriges.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C3143B1D0819F40048A824 /* NSString+EkuCategoriges.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		38C3141E1D08167A0048A824 /* EkuProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkuProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C314221D08167A0048A824 /* EkuProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkuProgressViewUITests.m; sourceTree = "<group>"; };
 		38C314241D08167A0048A824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C314311D0817000048A824 /* EkuLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EkuLine.h; sourceTree = "<group>"; };
+		38C314321D0817000048A824 /* EkuLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EkuLine.m; sourceTree = "<group>"; };
+		38C314371D0817250048A824 /* EkuProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EkuProgressView.h; sourceTree = "<group>"; };
+		38C314381D0817250048A824 /* EkuProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EkuProgressView.m; sourceTree = "<group>"; };
+		38C3143A1D0819F40048A824 /* NSString+EkuCategoriges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EkuCategoriges.h"; sourceTree = "<group>"; };
+		38C3143B1D0819F40048A824 /* NSString+EkuCategoriges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EkuCategoriges.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,9 @@
 		38C313FC1D08167A0048A824 /* EkuProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				38C3143A1D0819F40048A824 /* NSString+EkuCategoriges.h */,
+				38C3143B1D0819F40048A824 /* NSString+EkuCategoriges.m */,
+				38C314301D0817000048A824 /* EkuProgressView */,
 				38C314001D08167A0048A824 /* AppDelegate.h */,
 				38C314011D08167A0048A824 /* AppDelegate.m */,
 				38C314031D08167A0048A824 /* ViewController.h */,
@@ -138,6 +150,17 @@
 				38C314241D08167A0048A824 /* Info.plist */,
 			);
 			path = EkuProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		38C314301D0817000048A824 /* EkuProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				38C314311D0817000048A824 /* EkuLine.h */,
+				38C314321D0817000048A824 /* EkuLine.m */,
+				38C314371D0817250048A824 /* EkuProgressView.h */,
+				38C314381D0817250048A824 /* EkuProgressView.m */,
+			);
+			path = EkuProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C314051D08167A0048A824 /* ViewController.m in Sources */,
+				38C314351D0817000048A824 /* EkuLine.m in Sources */,
 				38C314021D08167A0048A824 /* AppDelegate.m in Sources */,
 				38C313FF1D08167A0048A824 /* main.m in Sources */,
+				38C314391D0817250048A824 /* EkuProgressView.m in Sources */,
+				38C3143C1D0819F40048A824 /* NSString+EkuCategoriges.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

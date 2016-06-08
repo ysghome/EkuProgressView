@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EkuProgressView.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet EkuProgressView *progressView;
+
+@property (weak, nonatomic) IBOutlet UITextField *numberTextField;
 
 @end
 
