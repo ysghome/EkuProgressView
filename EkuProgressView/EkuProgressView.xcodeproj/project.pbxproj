@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38C313FF1D08167A0048A824 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C313FE1D08167A0048A824 /* main.m */; };
+		38C314021D08167A0048A824 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C314011D08167A0048A824 /* AppDelegate.m */; };
+		38C314051D08167A0048A824 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C314041D08167A0048A824 /* ViewController.m */; };
+		38C314081D08167A0048A824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C314061D08167A0048A824 /* Main.storyboard */; };
+		38C3140A1D08167A0048A824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C314091D08167A0048A824 /* Assets.xcassets */; };
+		38C3140D1D08167A0048A824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C3140B1D08167A0048A824 /* LaunchScreen.storyboard */; };
+		38C314181D08167A0048A824 /* EkuProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C314171D08167A0048A824 /* EkuProgressViewTests.m */; };
+		38C314231D08167A0048A824 /* EkuProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C314221D08167A0048A824 /* EkuProgressViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38C314141D08167A0048A824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38C313F21D08167A0048A824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C313F91D08167A0048A824;
+			remoteInfo = EkuProgressView;
+		};
+		38C3141F1D08167A0048A824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38C313F21D08167A0048A824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C313F91D08167A0048A824;
+			remoteInfo = EkuProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38C313FA1D08167A0048A824 /* EkuProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkuProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C313FE1D08167A0048A824 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38C314001D08167A0048A824 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38C314011D08167A0048A824 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38C314031D08167A0048A824 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38C314041D08167A0048A824 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38C314071D08167A0048A824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38C314091D08167A0048A824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38C3140C1D08167A0048A824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38C3140E1D08167A0048A824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C314131D08167A0048A824 /* EkuProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkuProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C314171D08167A0048A824 /* EkuProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkuProgressViewTests.m; sourceTree = "<group>"; };
+		38C314191D08167A0048A824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C3141E1D08167A0048A824 /* EkuProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkuProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C314221D08167A0048A824 /* EkuProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkuProgressViewUITests.m; sourceTree = "<group>"; };
+		38C314241D08167A0048A824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C313F71D08167A0048A824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C314101D08167A0048A824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C3141B1D08167A0048A824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38C313F11D08167A0048A824 = {
+			isa = PBXGroup;
+			children = (
+				38C313FC1D08167A0048A824 /* EkuProgressView */,
+				38C314161D08167A0048A824 /* EkuProgressViewTests */,
+				38C314211D08167A0048A824 /* EkuProgressViewUITests */,
+				38C313FB1D08167A0048A824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38C313FB1D08167A0048A824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38C313FA1D08167A0048A824 /* EkuProgressView.app */,
+				38C314131D08167A0048A824 /* EkuProgressViewTests.xctest */,
+				38C3141E1D08167A0048A824 /* EkuProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38C313FC1D08167A0048A824 /* EkuProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				38C314001D08167A0048A824 /* AppDelegate.h */,
+				38C314011D08167A0048A824 /* AppDelegate.m */,
+				38C314031D08167A0048A824 /* ViewController.h */,
+				38C314041D08167A0048A824 /* ViewController.m */,
+				38C314061D08167A0048A824 /* Main.storyboard */,
+				38C314091D08167A0048A824 /* Assets.xcassets */,
+				38C3140B1D08167A0048A824 /* LaunchScreen.storyboard */,
+				38C3140E1D08167A0048A824 /* Info.plist */,
+				38C313FD1D08167A0048A824 /* Supporting Files */,
+			);
+			path = EkuProgressView;
+			sourceTree = "<group>";
+		};
+		38C313FD1D08167A0048A824 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C313FE1D08167A0048A824 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38C314161D08167A0048A824 /* EkuProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				38C314171D08167A0048A824 /* EkuProgressViewTests.m */,
+				38C314191D08167A0048A824 /* Info.plist */,
+			);
+			path = EkuProgressViewTests;
+			sourceTree = "<group>";
+		};
+		38C314211D08167A0048A824 /* EkuProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38C314221D08167A0048A824 /* EkuProgressViewUITests.m */,
+				38C314241D08167A0048A824 /* Info.plist */,
+			);
+			path = EkuProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38C313F91D08167A0048A824 /* EkuProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C314271D08167A0048A824 /* Build configuration list for PBXNativeTarget "EkuProgressView" */;
+			buildPhases = (
+				38C313F61D08167A0048A824 /* Sources */,
+				38C313F71D08167A0048A824 /* Frameworks */,
+				38C313F81D08167A0048A824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkuProgressView;
+			productName = EkuProgressView;
+			productReference = 38C313FA1D08167A0048A824 /* EkuProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38C314121D08167A0048A824 /* EkuProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C3142A1D08167A0048A824 /* Build configuration list for PBXNativeTarget "EkuProgressViewTests" */;
+			buildPhases = (
+				38C3140F1D08167A0048A824 /* Sources */,
+				38C314101D08167A0048A824 /* Frameworks */,
+				38C314111D08167A0048A824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38C314151D08167A0048A824 /* PBXTargetDependency */,
+			);
+			name = EkuProgressViewTests;
+			productName = EkuProgressViewTests;
+			productReference = 38C314131D08167A0048A824 /* EkuProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38C3141D1D08167A0048A824 /* EkuProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C3142D1D08167A0048A824 /* Build configuration list for PBXNativeTarget "EkuProgressViewUITests" */;
+			buildPhases = (
+				38C3141A1D08167A0048A824 /* Sources */,
+				38C3141B1D08167A0048A824 /* Frameworks */,
+				38C3141C1D08167A0048A824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38C314201D08167A0048A824 /* PBXTargetDependency */,
+			);
+			name = EkuProgressViewUITests;
+			productName = EkuProgressViewUITests;
+			productReference = 38C3141E1D08167A0048A824 /* EkuProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38C313F21D08167A0048A824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ysghome;
+				TargetAttributes = {
+					38C313F91D08167A0048A824 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					38C314121D08167A0048A824 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 38C313F91D08167A0048A824;
+					};
+					38C3141D1D08167A0048A824 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 38C313F91D08167A0048A824;
+					};
+				};
+			};
+			buildConfigurationList = 38C313F51D08167A0048A824 /* Build configuration list for PBXProject "EkuProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38C313F11D08167A0048A824;
+			productRefGroup = 38C313FB1D08167A0048A824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38C313F91D08167A0048A824 /* EkuProgressView */,
+				38C314121D08167A0048A824 /* EkuProgressViewTests */,
+				38C3141D1D08167A0048A824 /* EkuProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38C313F81D08167A0048A824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C3140D1D08167A0048A824 /* LaunchScreen.storyboard in Resources */,
+				38C3140A1D08167A0048A824 /* Assets.xcassets in Resources */,
+				38C314081D08167A0048A824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C314111D08167A0048A824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C3141C1D08167A0048A824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38C313F61D08167A0048A824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C314051D08167A0048A824 /* ViewController.m in Sources */,
+				38C314021D08167A0048A824 /* AppDelegate.m in Sources */,
+				38C313FF1D08167A0048A824 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C3140F1D08167A0048A824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C314181D08167A0048A824 /* EkuProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C3141A1D08167A0048A824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C314231D08167A0048A824 /* EkuProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38C314151D08167A0048A824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C313F91D08167A0048A824 /* EkuProgressView */;
+			targetProxy = 38C314141D08167A0048A824 /* PBXContainerItemProxy */;
+		};
+		38C314201D08167A0048A824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C313F91D08167A0048A824 /* EkuProgressView */;
+			targetProxy = 38C3141F1D08167A0048A824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38C314061D08167A0048A824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C314071D08167A0048A824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38C3140B1D08167A0048A824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C3140C1D08167A0048A824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38C314251D08167A0048A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38C314261D08167A0048A824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38C314281D08167A0048A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EkuProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eku001.EkuProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38C314291D08167A0048A824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EkuProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eku001.EkuProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38C3142B1D08167A0048A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EkuProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eku001.EkuProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkuProgressView.app/EkuProgressView";
+			};
+			name = Debug;
+		};
+		38C3142C1D08167A0048A824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EkuProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eku001.EkuProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkuProgressView.app/EkuProgressView";
+			};
+			name = Release;
+		};
+		38C3142E1D08167A0048A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EkuProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eku001.EkuProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EkuProgressView;
+			};
+			name = Debug;
+		};
+		38C3142F1D08167A0048A824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EkuProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eku001.EkuProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EkuProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38C313F51D08167A0048A824 /* Build configuration list for PBXProject "EkuProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C314251D08167A0048A824 /* Debug */,
+				38C314261D08167A0048A824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C314271D08167A0048A824 /* Build configuration list for PBXNativeTarget "EkuProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C314281D08167A0048A824 /* Debug */,
+				38C314291D08167A0048A824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38C3142A1D08167A0048A824 /* Build configuration list for PBXNativeTarget "EkuProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C3142B1D08167A0048A824 /* Debug */,
+				38C3142C1D08167A0048A824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38C3142D1D08167A0048A824 /* Build configuration list for PBXNativeTarget "EkuProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C3142E1D08167A0048A824 /* Debug */,
+				38C3142F1D08167A0048A824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38C313F21D08167A0048A824 /* Project object */;
+}
