@@ -74,4 +74,8 @@
     [self.line setProgress:pinnedProgress animated:YES];
 }
 
+- (void)animateSelectedLineToNewIndex:(NSInteger)newIndex {
+    [self.line animateSelectedLineToNewIndex:newIndex];
+}
+
 @end

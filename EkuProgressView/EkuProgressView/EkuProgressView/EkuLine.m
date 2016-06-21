@@ -152,9 +152,6 @@
  */
 - (void)setProgress:(CGFloat)progress animated:(BOOL)animated {
     CGFloat pinnedProgress = MIN(MAX(progress, 0.0f), 1.0f);
-    if (pinnedProgress == (self.selectedLineLength / self.frame.size.width)) {
-        return;
-    }
     CGFloat newLineLength = self.frame.size.width * pinnedProgress;
     NSInteger newIndex = newLineLength / DISTANCE;
     
@@ -176,9 +173,6 @@
 
 - (void)animateSelectedLineToNewIndex:(NSInteger)newIndex {
     CGFloat newLineLength = (newIndex - 1) * DISTANCE;
-    if (newLineLength == self.selectedLineLength) {
-        return;
-    }
     // Half curve animation
     CAKeyframeAnimation *anim = [self createHalfCurveAnima:@"selectedLineLength"
                                                   duration:0.8
@@ -188,7 +182,6 @@
     self.selectedLineLength = newLineLength;//动画有问题
     [self addAnimation:anim forKey:@"lineAnimation"];
     self.selectedPage = newIndex;
-//    [self setNeedsDisplay];
 }
 
 /**

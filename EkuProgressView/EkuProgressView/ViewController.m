@@ -41,7 +41,10 @@
 
 
 - (IBAction)changeProgressViewValue:(id)sender {
-    if ([self.numberTextField.text isPureFloat]) {
+    if ([self.numberTextField.text isPureFloat] && [self.numberTextField.text floatValue] >= 1.0) {
+        [self.progressView animateSelectedLineToNewIndex:[self.numberTextField.text floatValue]];
+        [self.createProgressView animateSelectedLineToNewIndex:[self.numberTextField.text floatValue]];
+    } else if ([self.numberTextField.text isPureFloat]) {
         [self.progressView setProgress:[self.numberTextField.text floatValue] animated:YES];
         [self.createProgressView setProgress:[self.numberTextField.text floatValue] animated:YES];
     }

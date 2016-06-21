@@ -37,4 +37,11 @@
  */
 - (void)setProgress:(CGFloat)progress animated:(BOOL)animated;
 
+/**
+ *  设置进度条到某个点
+ *
+ *  @param newIndex 选择的点
+ */
+- (void)animateSelectedLineToNewIndex:(NSInteger)newIndex;
+
 @end
